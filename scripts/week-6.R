@@ -31,7 +31,7 @@ ggplot(diamonds,aes(carat,price))+
   scale_fill_gradient(low = "lightgreen",high = "red")+
   theme_minimal()
 #Color meaning:
-#-Light ->fewer diamonds
+# -Light ->fewer diamonds
 #-Dark -> dense region
 #PROFESSIONAL PALETTE(Viridis)
 ggplot(diamonds,aes(carat,price))+geom_hex(bins = 35)+scale_fill_viridis_c()+
